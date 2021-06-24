@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         fibonacci(10)
     }
 
-    fun fibonacci(maxNumber: Int):MutableList<BigInteger> {
+    fun fibonacci(maxNumber: Int): MutableList<BigInteger> {
         var count = 0;
         var firstNumber = 0.toBigInteger()
         var secondNumber = 1.toBigInteger()
